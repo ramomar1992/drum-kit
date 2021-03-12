@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-color: #283149;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+    margin: 5rem auto;
+}
+
+.drums {
+    margin: 10rem auto;
+}
+
+.drum {
+    position: relative;
+    box-sizing: content-box;
+    margin: 0 0.5rem;
+    border-radius: 20px;
+    border: 0.4rem solid rgba(128, 128, 128, 0.616);
+    font-size: 5rem;
+    font-family: 'Arvo',
+        cursive;
+    /* line-height: 2; */
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    text-align: center;
+    background-color: white;
+    width: 10%;
+    height: fit-content;
+}
+
+.drum:nth-child(1) {
+    background-image: url(../images/tom1.png);
+}
+
+.drum:nth-child(2) {
+    background-image: url(../images/tom2.png);
+}
+
+.drum:nth-child(3) {
+    background-image: url(../images/tom3.png);
+
+}
+
+.drum:nth-child(4) {
+    background-image: url(../images/tom4.png);
+}
+
+.drum:nth-child(5) {
+    background-image: url(../images/snare.png);
+}
+
+.drum:nth-child(6) {
+    background-image: url(../images/crash.png);
+}
+
+.drum:nth-child(7) {
+    background-image: url(../images/kick.png);
+}
+
+.drum:hover {
+    transform: scale(1.05);
+    box-shadow: inset 10px 10px 50px rgb(114, 114, 114);
+}
